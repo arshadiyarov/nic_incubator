@@ -4,10 +4,10 @@ import { Item } from "@/components/sections/MainBanner/MainBanner.type";
 const MainBanner = ({ title, body }: Item) => {
   return (
     <section className={"py-24 bg-mainBanner"}>
-      <div className={"w-[455px] mx-auto"}>
+      <div className={"w-[575px] mx-auto"}>
         <div className={"text-center text-white"}>
-          <span className={"font-manrope font-bold text-xs"}>{title}</span>
-          <h3 className={"font-playfair text-4xl font-bold"}>{body}</h3>
+          <span className={"font-manrope font-bold text-sm"}>{title}</span>
+          <h3 className={"font-playfair text-5xl font-bold"}>{body}</h3>
           <button
             className={
               "bg-otherSecond text-xs font-bold font-manrope py-3 px-6 mt-6"

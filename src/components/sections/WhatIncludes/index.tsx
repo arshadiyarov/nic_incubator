@@ -54,7 +54,7 @@ const WhatIncludes = () => {
           </div>
         </div>
         <video width={764.5} controls loop autoPlay>
-          <source src="/img/videoPlaceholder.mp4" />
+          <source src="/img/videoPlaceholder1.mp4" />
         </video>
       </div>
     </section>
