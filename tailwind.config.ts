@@ -8,10 +8,24 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        other: "#799BA4",
+        otherSecond: "#5C8692",
+        primary: "#EBF3F5",
+        secondary: "#1E2C30",
+        text: "#555555",
+        designBlack: "#141414",
+        copy: "#111E22",
+      },
+      fontFamily: {
+        playfair: "Playfair Display, sans-serif",
+        manrope: "Manrope, sans-serif",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        background1: "url('/img/background.jpg')",
+        background2: "url('/img/aboutUsMainImgBg.jpg')",
+        background3: "url('/img/ourServicesBg.png')",
+        mainBanner: "url('/img/mainBannerBg.jpg')",
       },
     },
   },
