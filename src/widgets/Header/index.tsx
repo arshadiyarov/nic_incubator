@@ -46,7 +46,7 @@ const Header = () => {
               {hover && (
                 <div
                   className={
-                    "absolute top-8 left-7 bg-white border text-center flex flex-col"
+                    "absolute top-7 left-7 bg-white border text-center flex flex-col"
                   }
                 >
                   <Link
